@@ -4,6 +4,27 @@ Sistema web pessoal em português para evoluir até QA Sênior: **22 semanas, 11
 
 ## Publicar como página web no GitHub
 
+Página do projeto: **https://basbruno.github.io/qa-atlas/**.
+
+### Registrar progresso na página
+
+Em **Meu livro → Exercícios**, abra um desafio, preencha **Adaptação, comando e evidência** e marque **Concluir exercício**. Você pode editar o texto e desmarcar a conclusão depois. Nas aulas, registre notas e evidências e marque a conclusão. As alterações são salvas automaticamente no navegador e permanecem após recarregar a página ou atualizar o site.
+
+O progresso é individual por navegador e dispositivo; não é enviado ao GitHub nem sincronizado entre celular e computador. Use **Exportar progresso** para guardar uma cópia e **Ambiente e backup → Importar backup** para transferi-la. Para trazer dados da versão local, exporte nela e importe na página publicada. Evite usar navegação anônima para manter seu progresso.
+
+### Atualizar o site publicado
+
+Depois de editar os arquivos nesta pasta, execute:
+
+```powershell
+npm.cmd run build
+git add --all
+git commit -m "Atualiza QA Atlas"
+git push origin master
+```
+
+Acompanhe a publicação em https://github.com/basbruno/qa-atlas/actions. Atualizações do site preservam o progresso salvo no mesmo navegador e endereço. Notas e conclusões não exigem commit nem nova publicação.
+
 O app está preparado para **GitHub Pages**, com publicação automática pelo arquivo `.github/workflows/pages.yml`. O build configura os caminhos conforme o endereço do Pages, inclusive quando o site fica em `/nome-do-repositorio/`.
 
 1. Crie um repositório no GitHub com branch principal `main` ou `master` e envie o conteúdo desta pasta. Inclua a pasta oculta `.github`; não envie `node_modules/` nem `dist/`.
