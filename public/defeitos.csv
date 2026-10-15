@@ -1,0 +1,11 @@
+id,modulo,severidade,horas_correcao
+D01,Cadastro,Alta,2
+D02,Pagamentos,Crítica,4
+D03,Login,Média,6
+D04,Cadastro,Baixa,8
+D05,Pagamentos,Alta,10
+D06,Login,Alta,12
+D07,Cadastro,Média,14
+D08,Pagamentos,Crítica,24
+D03,Login,Média,6
+D09,Login,Alta,-2

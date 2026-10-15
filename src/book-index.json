@@ -1,0 +1,4712 @@
+{
+  "title": "Perca o Medo da Automação",
+  "subtitle": "Edição completa com bônus",
+  "author": "Lilian Borba · QA Insider",
+  "pageCount": 256,
+  "sha256": "f2b0d686555315cdb95819b8f4205572386e72af268b21d35e44eed6f7658b25",
+  "chapters": [
+    {
+      "id": "inicio",
+      "title": "Apresentação e sumário",
+      "start": 1,
+      "end": 6,
+      "weeks": [
+        1
+      ]
+    },
+    {
+      "id": "medo",
+      "title": "01 · O medo da automação",
+      "start": 7,
+      "end": 10,
+      "weeks": [
+        1,
+        22
+      ]
+    },
+    {
+      "id": "fundamentos",
+      "title": "02 · Fundamentos de automação",
+      "start": 11,
+      "end": 14,
+      "weeks": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "web",
+      "title": "03 · Automação web",
+      "start": 15,
+      "end": 21,
+      "weeks": [
+        6,
+        7,
+        18
+      ]
+    },
+    {
+      "id": "api",
+      "title": "04 · API testing",
+      "start": 22,
+      "end": 26,
+      "weeks": [
+        4,
+        5,
+        9,
+        18
+      ]
+    },
+    {
+      "id": "sql",
+      "title": "05 · SQL para QA",
+      "start": 27,
+      "end": 29,
+      "weeks": [
+        3,
+        17
+      ]
+    },
+    {
+      "id": "ia",
+      "title": "06 · IA aplicada à automação",
+      "start": 30,
+      "end": 32,
+      "weeks": [
+        12,
+        13
+      ]
+    },
+    {
+      "id": "praticas",
+      "title": "07 · Boas práticas de automação",
+      "start": 33,
+      "end": 35,
+      "weeks": [
+        8,
+        10
+      ]
+    },
+    {
+      "id": "ci",
+      "title": "08 · CI/CD",
+      "start": 36,
+      "end": 38,
+      "weeks": [
+        11
+      ]
+    },
+    {
+      "id": "mobile",
+      "title": "09 · Mobile testing",
+      "start": 39,
+      "end": 41,
+      "weeks": [
+        19
+      ]
+    },
+    {
+      "id": "robot",
+      "title": "10 · Robot Framework",
+      "start": 42,
+      "end": 43,
+      "weeks": [
+        20
+      ]
+    },
+    {
+      "id": "bdd",
+      "title": "11 · BDD",
+      "start": 44,
+      "end": 45,
+      "weeks": [
+        14,
+        15,
+        20
+      ]
+    },
+    {
+      "id": "ferramentas",
+      "title": "12 · Outras ferramentas",
+      "start": 46,
+      "end": 48,
+      "weeks": [
+        18,
+        21
+      ]
+    },
+    {
+      "id": "carreira",
+      "title": "13 · Carreira em automação",
+      "start": 49,
+      "end": 52,
+      "weeks": [
+        16,
+        22
+      ]
+    },
+    {
+      "id": "bonus",
+      "title": "Apresentação dos bônus",
+      "start": 53,
+      "end": 53,
+      "weeks": [
+        17
+      ]
+    },
+    {
+      "id": "exweb",
+      "title": "Bônus · Exercícios web",
+      "start": 54,
+      "end": 111,
+      "weeks": [
+        6,
+        7,
+        8,
+        10,
+        18
+      ]
+    },
+    {
+      "id": "exapi",
+      "title": "Bônus · Exercícios de API",
+      "start": 112,
+      "end": 179,
+      "weeks": [
+        4,
+        5,
+        9,
+        18
+      ]
+    },
+    {
+      "id": "exsql",
+      "title": "Bônus · Exercícios SQL",
+      "start": 180,
+      "end": 197,
+      "weeks": [
+        17
+      ]
+    },
+    {
+      "id": "exmobile",
+      "title": "Bônus · Exercícios mobile",
+      "start": 198,
+      "end": 238,
+      "weeks": [
+        19
+      ]
+    },
+    {
+      "id": "prompts",
+      "title": "Bônus · 50 prompts para IA",
+      "start": 239,
+      "end": 249,
+      "weeks": [
+        12,
+        13,
+        22
+      ]
+    },
+    {
+      "id": "checklist",
+      "title": "Bônus · Checklist profissional",
+      "start": 250,
+      "end": 251,
+      "weeks": [
+        16,
+        22
+      ]
+    },
+    {
+      "id": "glossario",
+      "title": "Bônus · Glossário",
+      "start": 252,
+      "end": 256,
+      "weeks": [
+        1,
+        22
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "book-web-001-p54",
+      "number": 1,
+      "title": "Navegar para uma URL e verificar o título da página",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 54,
+      "endPage": 54,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-002-p54",
+      "number": 2,
+      "title": "Clicar em um link pelo texto e verificar redirecionamento",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 54,
+      "endPage": 54,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-003-p54",
+      "number": 3,
+      "title": "Preencher um campo de texto e verificar o valor inserido",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 54,
+      "endPage": 54,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-004-p55",
+      "number": 4,
+      "title": "Fazer login com credenciais válidas",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 55,
+      "endPage": 55,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-005-p55",
+      "number": 5,
+      "title": "Verificar que mensagem de erro aparece com senha incorreta",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 55,
+      "endPage": 55,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-006-p55",
+      "number": 6,
+      "title": "Verificar que um elemento está visível na página",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 55,
+      "endPage": 55,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-007-p56",
+      "number": 7,
+      "title": "Verificar que um elemento está desabilitado",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 56,
+      "endPage": 56,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-008-p56",
+      "number": 8,
+      "title": "Clicar em um checkbox e verificar que está marcado",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 56,
+      "endPage": 56,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-009-p56",
+      "number": 9,
+      "title": "Selecionar uma opção em um dropdown pelo valor",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 56,
+      "endPage": 56,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-010-p56",
+      "number": 10,
+      "title": "Verificar o texto de um elemento específico",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 56,
+      "endPage": 56,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-011-p57",
+      "number": 11,
+      "title": "Tirar screenshot de uma página",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 57,
+      "endPage": 57,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-012-p57",
+      "number": 12,
+      "title": "Verificar a URL atual da página",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 57,
+      "endPage": 57,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-013-p57",
+      "number": 13,
+      "title": "Contar quantos elementos de uma lista existem",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 57,
+      "endPage": 57,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-014-p58",
+      "number": 14,
+      "title": "Verificar que um elemento não está visível",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 58,
+      "endPage": 58,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-015-p58",
+      "number": 15,
+      "title": "Obter e verificar um atributo de elemento",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 58,
+      "endPage": 58,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-016-p58",
+      "number": 16,
+      "title": "Navegar para trás e para frente no histórico",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 58,
+      "endPage": 58,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-017-p59",
+      "number": 17,
+      "title": "Limpar um campo de texto antes de preencher",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 59,
+      "endPage": 59,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-018-p59",
+      "number": 18,
+      "title": "Verificar que a página contém um texto qualquer",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 59,
+      "endPage": 59,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-019-p59",
+      "number": 19,
+      "title": "Acessar o segundo item de uma lista de elementos",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 59,
+      "endPage": 59,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-020-p59",
+      "number": 20,
+      "title": "Verificar o número de links em uma página",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 59,
+      "endPage": 59,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-021-p60",
+      "number": 21,
+      "title": "Fazer upload de um arquivo via input file",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 60,
+      "endPage": 60,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-022-p60",
+      "number": 22,
+      "title": "Verificar o título de uma aba (tab) do navegador",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 60,
+      "endPage": 60,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-023-p60",
+      "number": 23,
+      "title": "Aguardar um elemento aparecer dinamicamente",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 60,
+      "endPage": 60,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-024-p61",
+      "number": 24,
+      "title": "Verificar cor de um elemento com CSS",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 61,
+      "endPage": 61,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-025-p61",
+      "number": 25,
+      "title": "Simular pressionamento de tecla Enter",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 61,
+      "endPage": 61,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-026-p61",
+      "number": 26,
+      "title": "Rolar a página até o rodapé",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 61,
+      "endPage": 61,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-027-p62",
+      "number": 27,
+      "title": "Verificar que um link abre em nova aba (_blank)",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 62,
+      "endPage": 62,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-028-p62",
+      "number": 28,
+      "title": "Aceitar um alert JavaScript",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 62,
+      "endPage": 62,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-029-p62",
+      "number": 29,
+      "title": "Confirmar ou cancelar um confirm JavaScript",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 62,
+      "endPage": 62,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-030-p63",
+      "number": 30,
+      "title": "Preencher um prompt JavaScript com texto",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 63,
+      "endPage": 63,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-031-p63",
+      "number": 31,
+      "title": "Testar hover em um elemento",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 63,
+      "endPage": 63,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-032-p63",
+      "number": 32,
+      "title": "Verificar múltiplos atributos de uma tabela HTML",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 63,
+      "endPage": 63,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-033-p64",
+      "number": 33,
+      "title": "Verificar que um iframe existe e contém elemento",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 64,
+      "endPage": 64,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-034-p64",
+      "number": 34,
+      "title": "Verificar que página retorna erro 404 para URL inválida",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 64,
+      "endPage": 64,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-035-p64",
+      "number": 35,
+      "title": "Usar variáveis de ambiente em testes",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 64,
+      "endPage": 64,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-036-p65",
+      "number": 36,
+      "title": "Executar o mesmo teste em múltiplos navegadores",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 65,
+      "endPage": 65,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-037-p65",
+      "number": 37,
+      "title": "Usar beforeEach para setup comum entre testes",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 65,
+      "endPage": 65,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-038-p66",
+      "number": 38,
+      "title": "Testar responsividade em viewport mobile",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 66,
+      "endPage": 66,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-039-p66",
+      "number": 39,
+      "title": "Verificar que elementos aparecem na ordem correta",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 66,
+      "endPage": 66,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-040-p66",
+      "number": 40,
+      "title": "Fazer logout após login e verificar redirecionamento",
+      "topic": "Web",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 66,
+      "endPage": 67,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-041-p67",
+      "number": 41,
+      "title": "Criar Page Object para a página de Login",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 67,
+      "endPage": 67,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-042-p68",
+      "number": 42,
+      "title": "Usar fixtures do Playwright para estado autenticado",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 68,
+      "endPage": 68,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-043-p69",
+      "number": 43,
+      "title": "Parametrizar testes com test.each / data-driven",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 69,
+      "endPage": 69,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-044-p69",
+      "number": 44,
+      "title": "Interceptar requisições de rede e verificar payload",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 69,
+      "endPage": 69,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-045-p70",
+      "number": 45,
+      "title": "Mockar uma resposta de API no teste E2E",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 70,
+      "endPage": 70,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-046-p70",
+      "number": 46,
+      "title": "Testar drag and drop",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 70,
+      "endPage": 70,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-047-p71",
+      "number": 47,
+      "title": "Testar múltiplas janelas/abas simultaneamente",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 71,
+      "endPage": 71,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-048-p71",
+      "number": 48,
+      "title": "Testar campos de formulário com validação HTML5",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 71,
+      "endPage": 71,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-049-p72",
+      "number": 49,
+      "title": "Verificar acessibilidade básica com axe-core",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 72,
+      "endPage": 72,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-050-p72",
+      "number": 50,
+      "title": "Usar soft assertions para verificar múltiplos pontos",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 72,
+      "endPage": 72,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-051-p72",
+      "number": 51,
+      "title": "Extrair todos os textos de uma tabela para validação",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 72,
+      "endPage": 72,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-052-p73",
+      "number": 52,
+      "title": "Testar campo de busca com vários termos",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 73,
+      "endPage": 73,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-053-p73",
+      "number": 53,
+      "title": "Implementar retry automático para elemento instável",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 73,
+      "endPage": 73,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-054-p74",
+      "number": 54,
+      "title": "Testar fluxo completo de carrinho de compras",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 74,
+      "endPage": 74,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-055-p74",
+      "number": 55,
+      "title": "Testar infinite scroll",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 74,
+      "endPage": 74,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-056-p75",
+      "number": 56,
+      "title": "Testar download de arquivo",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 75,
+      "endPage": 75,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-057-p75",
+      "number": 57,
+      "title": "Verificar que e-mail foi enviado (via API do serviço de email)",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 75,
+      "endPage": 75,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-058-p76",
+      "number": 58,
+      "title": "Testar autenticação 2FA via TOTP",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 76,
+      "endPage": 76,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-059-p77",
+      "number": 59,
+      "title": "Criar helper para gerar dados de teste aleatórios",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 77,
+      "endPage": 77,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-060-p78",
+      "number": 60,
+      "title": "Testar paginação de uma listagem",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 78,
+      "endPage": 78,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-061-p78",
+      "number": 61,
+      "title": "Testar comportamento de sessão expirada",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 78,
+      "endPage": 78,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-062-p79",
+      "number": 62,
+      "title": "Verificar que campos obrigatórios são sinalizados visualmente",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 79,
+      "endPage": 79,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-063-p79",
+      "number": 63,
+      "title": "Testar shortcut de teclado na aplicação",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 79,
+      "endPage": 79,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-064-p80",
+      "number": 64,
+      "title": "Verificar comportamento de autocomplete",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 80,
+      "endPage": 80,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-065-p81",
+      "number": 65,
+      "title": "Testar upload múltiplo de arquivos",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 81,
+      "endPage": 81,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-066-p82",
+      "number": 66,
+      "title": "Verificar ordenação de tabela ao clicar no cabeçalho",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 82,
+      "endPage": 82,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-067-p83",
+      "number": 67,
+      "title": "Testar filtros combinados em listagem",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 83,
+      "endPage": 83,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-068-p83",
+      "number": 68,
+      "title": "Verificar que modal fecha ao clicar fora",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 83,
+      "endPage": 83,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-069-p84",
+      "number": 69,
+      "title": "Testar comportamento de timezone no datepicker",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 84,
+      "endPage": 84,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-070-p85",
+      "number": 70,
+      "title": "Testar componente de rating/estrelas",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 85,
+      "endPage": 85,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-071-p86",
+      "number": 71,
+      "title": "Testar comportamento offline com Service Worker",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 86,
+      "endPage": 86,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-072-p87",
+      "number": 72,
+      "title": "Verificar que formulário salva rascunho automaticamente",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 87,
+      "endPage": 87,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-073-p88",
+      "number": 73,
+      "title": "Testar impressão com CSS @media print",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 88,
+      "endPage": 88,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-074-p89",
+      "number": 74,
+      "title": "Testar que tabela exporta corretamente para CSV",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 89,
+      "endPage": 89,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-075-p90",
+      "number": 75,
+      "title": "Verificar que página lida com parâmetros de URL maliciosos",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 90,
+      "endPage": 90,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-076-p91",
+      "number": 76,
+      "title": "Testar lazy loading de imagens",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 91,
+      "endPage": 91,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-077-p91",
+      "number": 77,
+      "title": "Testar que notificação toast aparece e desaparece",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 91,
+      "endPage": 91,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-078-p92",
+      "number": 78,
+      "title": "Testar busca com resultados zerados",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 92,
+      "endPage": 92,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-079-p93",
+      "number": 79,
+      "title": "Testar comportamento ao perder foco em campo com validação",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 93,
+      "endPage": 93,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-080-p94",
+      "number": 80,
+      "title": "Testar feature flag — funcionalidade ativa apenas para grupos",
+      "topic": "Web",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 94,
+      "endPage": 94,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-081-p95",
+      "number": 81,
+      "title": "Implementar framework base com BaseTest e configurações globais",
+      "topic": "Web",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 95,
+      "endPage": 95,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-082-p96",
+      "number": 82,
+      "title": "Configurar relatório customizado com allure-playwright",
+      "topic": "Web",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 96,
+      "endPage": 96,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-083-p97",
+      "number": 83,
+      "title": "Implementar visual regression testing com screenshots",
+      "topic": "Web",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 97,
+      "endPage": 97,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-084-p98",
+      "number": 84,
+      "title": "Criar teste de contrato de API com schema JSON",
+      "topic": "Web",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 98,
+      "endPage": 98,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-085-p99",
+      "number": 85,
+      "title": "Implementar retry estratégico apenas para falhas de infraestrutura",
+      "topic": "Web",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 99,
+      "endPage": 99,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-086-p99",
+      "number": 86,
+      "title": "Configurar Playwright em monorepo com múltiplos projetos",
+      "topic": "Web",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 99,
+      "endPage": 99,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-087-p100",
+      "number": 87,
+      "title": "Implementar Page Object com herança para componentes compartilhados",
+      "topic": "Web",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 100,
+      "endPage": 100,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-088-p101",
+      "number": 88,
+      "title": "Medir e validar performance de carregamento de página",
+      "topic": "Web",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 101,
+      "endPage": 101,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-089-p102",
+      "number": 89,
+      "title": "Criar smoke test suite executada em < 2 minutos",
+      "topic": "Web",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 102,
+      "endPage": 102,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-090-p103",
+      "number": 90,
+      "title": "Integrar testes com Slack notification no pipeline",
+      "topic": "Web",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 103,
+      "endPage": 103,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-091-p104",
+      "number": 91,
+      "title": "Implementar helper de limpeza de dados pós-teste",
+      "topic": "Web",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 104,
+      "endPage": 104,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-092-p105",
+      "number": 92,
+      "title": "Validar conteúdo de PDF gerado pela aplicação",
+      "topic": "Web",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 105,
+      "endPage": 105,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-093-p106",
+      "number": 93,
+      "title": "Criar relatório customizado com métricas de QA",
+      "topic": "Web",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 106,
+      "endPage": 106,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-094-p106",
+      "number": 94,
+      "title": "Testar fluxo de renovação de token JWT expirado",
+      "topic": "Web",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 106,
+      "endPage": 106,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-095-p107",
+      "number": 95,
+      "title": "Implementar teste de resiliência — simular falha de serviço externo",
+      "topic": "Web",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 107,
+      "endPage": 107,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-096-p107",
+      "number": 96,
+      "title": "Criar teste de fluxo crítico com gravação de trace",
+      "topic": "Web",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 107,
+      "endPage": 107,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-097-p108",
+      "number": 97,
+      "title": "Medir taxa de flakiness e reportar no pipeline",
+      "topic": "Web",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 108,
+      "endPage": 108,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-098-p109",
+      "number": 98,
+      "title": "Documentar arquitetura do framework com diagrama em código",
+      "topic": "Web",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 109,
+      "endPage": 109,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-099-p110",
+      "number": 99,
+      "title": "Implementar teste de acessibilidade com relatório detalhado",
+      "topic": "Web",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 110,
+      "endPage": 110,
+      "duplicate": false
+    },
+    {
+      "id": "book-web-100-p111",
+      "number": 100,
+      "title": "Criar health check automatizado executado a cada 5 minutos",
+      "topic": "Web",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 111,
+      "endPage": 111,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-001-p112",
+      "number": 1,
+      "title": "Fazer requisição GET e verificar status code 200",
+      "topic": "API",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 112,
+      "endPage": 112,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-002-p112",
+      "number": 2,
+      "title": "Verificar Content-Type do header de resposta",
+      "topic": "API",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 112,
+      "endPage": 112,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-003-p113",
+      "number": 3,
+      "title": "Verificar campos obrigatórios no body da resposta",
+      "topic": "API",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 113,
+      "endPage": 113,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-004-p113",
+      "number": 4,
+      "title": "Fazer POST e verificar status 201",
+      "topic": "API",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 113,
+      "endPage": 113,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-005-p113",
+      "number": 5,
+      "title": "Verificar que ID retornado no POST é string ou número",
+      "topic": "API",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 113,
+      "endPage": 113,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-006-p114",
+      "number": 6,
+      "title": "Fazer PUT e verificar status 200 + campo atualizado",
+      "topic": "API",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 114,
+      "endPage": 114,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-007-p114",
+      "number": 7,
+      "title": "Fazer PATCH e verificar apenas o campo alterado",
+      "topic": "API",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 114,
+      "endPage": 114,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-008-p114",
+      "number": 8,
+      "title": "Fazer DELETE e verificar status 204",
+      "topic": "API",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 114,
+      "endPage": 114,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-009-p115",
+      "number": 9,
+      "title": "Verificar que GET com ID inexistente retorna 404",
+      "topic": "API",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 115,
+      "endPage": 115,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-010-p115",
+      "number": 10,
+      "title": "Verificar que POST sem body retorna erro de validação",
+      "topic": "API",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 115,
+      "endPage": 115,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-011-p115",
+      "number": 11,
+      "title": "Verificar paginação — total_pages e per_page",
+      "topic": "API",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 115,
+      "endPage": 115,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-012-p116",
+      "number": 12,
+      "title": "Verificar que lista retornada não está vazia",
+      "topic": "API",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 116,
+      "endPage": 116,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-013-p116",
+      "number": 13,
+      "title": "Verificar formato do campo email na resposta",
+      "topic": "API",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 116,
+      "endPage": 116,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-014-p116",
+      "number": 14,
+      "title": "Verificar que response time está dentro do SLA",
+      "topic": "API",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 116,
+      "endPage": 116,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-015-p117",
+      "number": 15,
+      "title": "Verificar autenticação — endpoint sem token retorna 401",
+      "topic": "API",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 117,
+      "endPage": 117,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-016-p117",
+      "number": 16,
+      "title": "Testar login e capturar token JWT",
+      "topic": "API",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 117,
+      "endPage": 117,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-017-p117",
+      "number": 17,
+      "title": "Testar login com credenciais inválidas — 400",
+      "topic": "API",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 117,
+      "endPage": 117,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-018-p118",
+      "number": 18,
+      "title": "Verificar header de segurança X-Content-Type-Options",
+      "topic": "API",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 118,
+      "endPage": 118,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-019-p118",
+      "number": 19,
+      "title": "Verificar que IDs são únicos na listagem",
+      "topic": "API",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 118,
+      "endPage": 118,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-020-p118",
+      "number": 20,
+      "title": "Verificar que dados retornados batem com o filtro enviado",
+      "topic": "API",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 118,
+      "endPage": 119,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-021-p119",
+      "number": 21,
+      "title": "Implementar fluxo CRUD completo em um único contexto de teste",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 119,
+      "endPage": 119,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-022-p120",
+      "number": 22,
+      "title": "Testar rate limiting — muitas requisições retornam 429",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 120,
+      "endPage": 120,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-023-p121",
+      "number": 23,
+      "title": "Validar contrato com JSON Schema (Ajv)",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 121,
+      "endPage": 121,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-024-p122",
+      "number": 24,
+      "title": "Testar endpoint de busca com query parameters",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 122,
+      "endPage": 122,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-025-p123",
+      "number": 25,
+      "title": "Testar upload de arquivo via API multipart/form-data",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 123,
+      "endPage": 123,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-026-p124",
+      "number": 26,
+      "title": "Verificar que API rejeita tipos de arquivo não permitidos",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 124,
+      "endPage": 124,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-027-p125",
+      "number": 27,
+      "title": "Testar campos com injeção SQL nos parâmetros",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 125,
+      "endPage": 125,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-028-p126",
+      "number": 28,
+      "title": "Testar campos com XSS nos parâmetros de entrada",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 126,
+      "endPage": 126,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-029-p127",
+      "number": 29,
+      "title": "Verificar idempotência do método PUT",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 127,
+      "endPage": 127,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-030-p127",
+      "number": 30,
+      "title": "Testar concorrência — 2 requisições simultâneas para o mesmo recurso",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 127,
+      "endPage": 127,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-031-p128",
+      "number": 31,
+      "title": "Testar versionamento de API — v1 e v2 coexistem",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 128,
+      "endPage": 128,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-032-p129",
+      "number": 32,
+      "title": "Testar cabeçalho de depreciação em versão antiga",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 129,
+      "endPage": 129,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-033-p130",
+      "number": 33,
+      "title": "Testar endpoint de health check da aplicação",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 130,
+      "endPage": 130,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-034-p131",
+      "number": 34,
+      "title": "Testar header de cache — ETag e Cache-Control",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 131,
+      "endPage": 131,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-035-p132",
+      "number": 35,
+      "title": "Testar CORS — origens permitidas e bloqueadas",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 132,
+      "endPage": 132,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-036-p133",
+      "number": 36,
+      "title": "Testar Content Negotiation — JSON vs XML",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 133,
+      "endPage": 133,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-037-p134",
+      "number": 37,
+      "title": "Testar bulk operations — criar múltiplos recursos de uma vez",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 134,
+      "endPage": 134,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-038-p135",
+      "number": 38,
+      "title": "Verificar que soft delete não remove do banco mas esconde da API",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 135,
+      "endPage": 135,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-039-p136",
+      "number": 39,
+      "title": "Testar endpoint de busca com operadores avançados",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 136,
+      "endPage": 136,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-040-p137",
+      "number": 40,
+      "title": "Testar webhook — endpoint que recebe eventos externos",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 137,
+      "endPage": 137,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-041-p138",
+      "number": 41,
+      "title": "Verificar que webhook rejeita assinatura inválida",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 138,
+      "endPage": 138,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-042-p139",
+      "number": 42,
+      "title": "Testar endpoint de exportação assíncrona com polling",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 139,
+      "endPage": 139,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-043-p140",
+      "number": 43,
+      "title": "Testar payload com campos extras (should be ignored)",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 140,
+      "endPage": 140,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-044-p140",
+      "number": 44,
+      "title": "Testar limites de tamanho de payload",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 140,
+      "endPage": 140,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-045-p141",
+      "number": 45,
+      "title": "Testar comportamento com Accept-Language header",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 141,
+      "endPage": 141,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-046-p142",
+      "number": 46,
+      "title": "Testar endpoint com filtros de data em ISO 8601",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 142,
+      "endPage": 142,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-047-p143",
+      "number": 47,
+      "title": "Testar rate limiting com header Retry-After",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 143,
+      "endPage": 143,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-048-p144",
+      "number": 48,
+      "title": "Testar endpoint de métricas/telemetria",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 144,
+      "endPage": 144,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-049-p145",
+      "number": 49,
+      "title": "Verificar que API implementa HATEOAS (links de navegação)",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 145,
+      "endPage": 145,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-050-p146",
+      "number": 50,
+      "title": "Verificar proteção contra SSRF em campos de URL",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 146,
+      "endPage": 146,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-051-p147",
+      "number": 51,
+      "title": "Testar autenticação por API Key no header",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 147,
+      "endPage": 147,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-052-p148",
+      "number": 52,
+      "title": "Testar endpoint de refresh token",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 148,
+      "endPage": 148,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-053-p149",
+      "number": 53,
+      "title": "Verificar que refresh token não pode ser reutilizado",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 149,
+      "endPage": 149,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-054-p150",
+      "number": 54,
+      "title": "Testar GraphQL — query básica",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 150,
+      "endPage": 150,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-055-p151",
+      "number": 55,
+      "title": "Testar GraphQL — mutation de criação",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 151,
+      "endPage": 151,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-056-p152",
+      "number": 56,
+      "title": "Testar GraphQL — introspection desabilitada em produção",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 152,
+      "endPage": 152,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-057-p153",
+      "number": 57,
+      "title": "Testar WebSocket — conectar e receber mensagem",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 153,
+      "endPage": 153,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-058-p154",
+      "number": 58,
+      "title": "Testar idempotency key — evitar duplicação em pagamentos",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 154,
+      "endPage": 154,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-059-p155",
+      "number": 59,
+      "title": "Testar endpoint de auditoria — todas as ações são logadas",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 155,
+      "endPage": 155,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-060-p156",
+      "number": 60,
+      "title": "Testar que dados são mascarados em respostas de acordo com perfil",
+      "topic": "API",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 156,
+      "endPage": 156,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-031-p157",
+      "number": 31,
+      "title": "Testar fluxo OAuth2 Authorization Code completo",
+      "topic": "API",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 157,
+      "endPage": 157,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-050-p158",
+      "number": 50,
+      "title": "Testar transferência PIX e verificar comprovante",
+      "topic": "API",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 158,
+      "endPage": 158,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-075-p159",
+      "number": 75,
+      "title": "Testar endpoint de exclusão de dados LGPD",
+      "topic": "API",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 159,
+      "endPage": 159,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-100-p160",
+      "number": 100,
+      "title": "Medir e validar SLA de todos os endpoints críticos",
+      "topic": "API",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 160,
+      "endPage": 160,
+      "duplicate": false
+    },
+    {
+      "id": "book-api-032-p161",
+      "number": 32,
+      "title": "Implementar teste de contrato com Pact — Consumer",
+      "topic": "API",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 161,
+      "endPage": 162,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-033-p162",
+      "number": 33,
+      "title": "Implementar teste de provider com Pact",
+      "topic": "API",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 162,
+      "endPage": 162,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-034-p163",
+      "number": 34,
+      "title": "Testar tolerância a falhas — circuit breaker",
+      "topic": "API",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 163,
+      "endPage": 163,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-035-p164",
+      "number": 35,
+      "title": "Testar timeout e retry com backoff exponencial",
+      "topic": "API",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 164,
+      "endPage": 164,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-036-p165",
+      "number": 36,
+      "title": "Testar bulk delete com lista de IDs",
+      "topic": "API",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 165,
+      "endPage": 165,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-037-p166",
+      "number": 37,
+      "title": "Testar migração zero-downtime — API aceita ambas as versões de payload",
+      "topic": "API",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 166,
+      "endPage": 166,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-038-p167",
+      "number": 38,
+      "title": "Testar que API registra X-Request-ID para rastreabilidade",
+      "topic": "API",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 167,
+      "endPage": 167,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-039-p168",
+      "number": 39,
+      "title": "Testar endpoint de renegociação de dívida/parcelamento",
+      "topic": "API",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 168,
+      "endPage": 168,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-040-p169",
+      "number": 40,
+      "title": "Testar comportamento da API quando banco de dados está lento",
+      "topic": "API",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 169,
+      "endPage": 169,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-041-p170",
+      "number": 41,
+      "title": "Testar que API suporta compressão gzip",
+      "topic": "API",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 170,
+      "endPage": 170,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-042-p171",
+      "number": 42,
+      "title": "Testar ordenação estável em listagens paginadas",
+      "topic": "API",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 171,
+      "endPage": 171,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-043-p172",
+      "number": 43,
+      "title": "Testar que API retorna 405 para métodos não permitidos",
+      "topic": "API",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 172,
+      "endPage": 172,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-044-p173",
+      "number": 44,
+      "title": "Criar helper de autenticação reutilizável para toda a suite",
+      "topic": "API",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 173,
+      "endPage": 173,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-045-p174",
+      "number": 45,
+      "title": "Testar proteção contra enumeração de usuários",
+      "topic": "API",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 174,
+      "endPage": 174,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-046-p175",
+      "number": 46,
+      "title": "Testar que campos de senha nunca aparecem em respostas",
+      "topic": "API",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 175,
+      "endPage": 175,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-047-p176",
+      "number": 47,
+      "title": "Testar limite de requisições por IP (throttling)",
+      "topic": "API",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 176,
+      "endPage": 176,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-048-p177",
+      "number": 48,
+      "title": "Testar compressão e desempenho em payload grande",
+      "topic": "API",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 177,
+      "endPage": 177,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-049-p178",
+      "number": 49,
+      "title": "Testar API com certificado mTLS (mutual TLS)",
+      "topic": "API",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 178,
+      "endPage": 178,
+      "duplicate": true
+    },
+    {
+      "id": "book-api-050-p179",
+      "number": 50,
+      "title": "Testar API de notificações — preferências do usuário respeitadas",
+      "topic": "API",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 179,
+      "endPage": 179,
+      "duplicate": true
+    },
+    {
+      "id": "book-sql-001-p180",
+      "number": 1,
+      "title": "Selecionar todos os usuários ativos",
+      "topic": "SQL",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 180,
+      "endPage": 180,
+      "duplicate": false
+    },
+    {
+      "id": "book-sql-002-p180",
+      "number": 2,
+      "title": "Verificar se um usuário específico foi criado após cadastro",
+      "topic": "SQL",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 180,
+      "endPage": 180,
+      "duplicate": false
+    },
+    {
+      "id": "book-sql-003-p181",
+      "number": 3,
+      "title": "Contar quantos registros existem em uma tabela",
+      "topic": "SQL",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 181,
+      "endPage": 181,
+      "duplicate": false
+    },
+    {
+      "id": "book-sql-004-p181",
+      "number": 4,
+      "title": "Verificar que não há emails duplicados na tabela",
+      "topic": "SQL",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 181,
+      "endPage": 181,
+      "duplicate": false
+    },
+    {
+      "id": "book-sql-005-p181",
+      "number": 5,
+      "title": "Buscar os 10 registros mais recentes",
+      "topic": "SQL",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 181,
+      "endPage": 181,
+      "duplicate": false
+    },
+    {
+      "id": "book-sql-006-p182",
+      "number": 6,
+      "title": "Verificar pedido após criação via sistema",
+      "topic": "SQL",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 182,
+      "endPage": 182,
+      "duplicate": false
+    },
+    {
+      "id": "book-sql-007-p182",
+      "number": 7,
+      "title": "Verificar saldo de conta após transação",
+      "topic": "SQL",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 182,
+      "endPage": 182,
+      "duplicate": false
+    },
+    {
+      "id": "book-sql-008-p183",
+      "number": 8,
+      "title": "Buscar registros de log de auditoria de uma ação",
+      "topic": "SQL",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 183,
+      "endPage": 183,
+      "duplicate": false
+    },
+    {
+      "id": "book-sql-009-p183",
+      "number": 9,
+      "title": "Verificar que registro foi removido após delete",
+      "topic": "SQL",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 183,
+      "endPage": 183,
+      "duplicate": false
+    },
+    {
+      "id": "book-sql-010-p184",
+      "number": 10,
+      "title": "Calcular valor total de pedidos por status",
+      "topic": "SQL",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 184,
+      "endPage": 184,
+      "duplicate": false
+    },
+    {
+      "id": "book-sql-011-p184",
+      "number": 11,
+      "title": "Verificar dados de endereço após cadastro",
+      "topic": "SQL",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 184,
+      "endPage": 184,
+      "duplicate": false
+    },
+    {
+      "id": "book-sql-012-p185",
+      "number": 12,
+      "title": "Verificar que trigger de estoque funcionou",
+      "topic": "SQL",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 185,
+      "endPage": 185,
+      "duplicate": false
+    },
+    {
+      "id": "book-sql-013-p185",
+      "number": 13,
+      "title": "Listar usuários sem nenhum pedido (LEFT JOIN)",
+      "topic": "SQL",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 185,
+      "endPage": 185,
+      "duplicate": false
+    },
+    {
+      "id": "book-sql-014-p186",
+      "number": 14,
+      "title": "Verificar que senha está armazenada como hash (não plain text)",
+      "topic": "SQL",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 186,
+      "endPage": 186,
+      "duplicate": false
+    },
+    {
+      "id": "book-sql-015-p186",
+      "number": 15,
+      "title": "Verificar integridade referencial — FK válida",
+      "topic": "SQL",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 186,
+      "endPage": 186,
+      "duplicate": false
+    },
+    {
+      "id": "book-sql-016-p186",
+      "number": 16,
+      "title": "Buscar registros criados em um intervalo de datas",
+      "topic": "SQL",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 186,
+      "endPage": 186,
+      "duplicate": false
+    },
+    {
+      "id": "book-sql-017-p187",
+      "number": 17,
+      "title": "Verificar que CPF não foi salvo com máscara",
+      "topic": "SQL",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 187,
+      "endPage": 187,
+      "duplicate": false
+    },
+    {
+      "id": "book-sql-018-p187",
+      "number": 18,
+      "title": "Calcular percentual de pedidos por status",
+      "topic": "SQL",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 187,
+      "endPage": 187,
+      "duplicate": false
+    },
+    {
+      "id": "book-sql-019-p187",
+      "number": 19,
+      "title": "Verificar que e-mail está em minúsculas",
+      "topic": "SQL",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 187,
+      "endPage": 187,
+      "duplicate": false
+    },
+    {
+      "id": "book-sql-020-p188",
+      "number": 20,
+      "title": "Buscar o último login de cada usuário",
+      "topic": "SQL",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 188,
+      "endPage": 188,
+      "duplicate": false
+    },
+    {
+      "id": "book-sql-021-p188",
+      "number": 21,
+      "title": "Detectar registros duplicados com critério composto",
+      "topic": "SQL",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 188,
+      "endPage": 188,
+      "duplicate": false
+    },
+    {
+      "id": "book-sql-022-p188",
+      "number": 22,
+      "title": "Verificar conciliação financeira — débitos = créditos",
+      "topic": "SQL",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 188,
+      "endPage": 188,
+      "duplicate": false
+    },
+    {
+      "id": "book-sql-023-p189",
+      "number": 23,
+      "title": "Verificar ranking dos 5 clientes que mais compraram",
+      "topic": "SQL",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 189,
+      "endPage": 189,
+      "duplicate": false
+    },
+    {
+      "id": "book-sql-024-p189",
+      "number": 24,
+      "title": "Verificar que dados sensíveis estão mascarados",
+      "topic": "SQL",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 189,
+      "endPage": 189,
+      "duplicate": false
+    },
+    {
+      "id": "book-sql-025-p190",
+      "number": 25,
+      "title": "Calcular churn mensal de clientes",
+      "topic": "SQL",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 190,
+      "endPage": 190,
+      "duplicate": false
+    },
+    {
+      "id": "book-sql-041-p191",
+      "number": 41,
+      "title": "Detectar anomalia: transação acima do limite diário",
+      "topic": "SQL",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 191,
+      "endPage": 191,
+      "duplicate": false
+    },
+    {
+      "id": "book-sql-042-p191",
+      "number": 42,
+      "title": "Verificar SLA de processamento — tempo médio por etapa",
+      "topic": "SQL",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 191,
+      "endPage": 191,
+      "duplicate": false
+    },
+    {
+      "id": "book-sql-043-p192",
+      "number": 43,
+      "title": "Identificar gargalo em fila de processamento",
+      "topic": "SQL",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 192,
+      "endPage": 192,
+      "duplicate": false
+    },
+    {
+      "id": "book-sql-044-p192",
+      "number": 44,
+      "title": "Verificar integridade de dados em migração",
+      "topic": "SQL",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 192,
+      "endPage": 192,
+      "duplicate": false
+    },
+    {
+      "id": "book-sql-045-p193",
+      "number": 45,
+      "title": "Verificar snapshots de dados para testes de regressão",
+      "topic": "SQL",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 193,
+      "endPage": 193,
+      "duplicate": false
+    },
+    {
+      "id": "book-sql-046-p194",
+      "number": 46,
+      "title": "Detectar usuários com comportamento suspeito (possível fraude)",
+      "topic": "SQL",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 194,
+      "endPage": 194,
+      "duplicate": false
+    },
+    {
+      "id": "book-sql-047-p194",
+      "number": 47,
+      "title": "Verificar consistência de estoque após batch de vendas",
+      "topic": "SQL",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 194,
+      "endPage": 194,
+      "duplicate": false
+    },
+    {
+      "id": "book-sql-048-p195",
+      "number": 48,
+      "title": "Analisar performance de query com EXPLAIN ANALYZE",
+      "topic": "SQL",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 195,
+      "endPage": 195,
+      "duplicate": false
+    },
+    {
+      "id": "book-sql-049-p196",
+      "number": 49,
+      "title": "Criar procedure de limpeza de dados de teste",
+      "topic": "SQL",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 196,
+      "endPage": 196,
+      "duplicate": false
+    },
+    {
+      "id": "book-sql-050-p197",
+      "number": 50,
+      "title": "Criar view de monitoramento de saúde do banco",
+      "topic": "SQL",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 197,
+      "endPage": 197,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-001-p198",
+      "number": 1,
+      "title": "Abrir o app e verificar que a tela inicial carregou",
+      "topic": "Mobile",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 198,
+      "endPage": 198,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-002-p199",
+      "number": 2,
+      "title": "Fazer login no app com credenciais válidas",
+      "topic": "Mobile",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 199,
+      "endPage": 199,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-003-p199",
+      "number": 3,
+      "title": "Verificar texto de um elemento na tela",
+      "topic": "Mobile",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 199,
+      "endPage": 199,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-004-p199",
+      "number": 4,
+      "title": "Clicar em botão e verificar navegação para nova tela",
+      "topic": "Mobile",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 199,
+      "endPage": 199,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-005-p200",
+      "number": 5,
+      "title": "Preencher formulário e submeter",
+      "topic": "Mobile",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 200,
+      "endPage": 200,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-006-p200",
+      "number": 6,
+      "title": "Fazer scroll vertical para baixo",
+      "topic": "Mobile",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 200,
+      "endPage": 200,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-007-p201",
+      "number": 7,
+      "title": "Verificar se app está em foreground (ativo)",
+      "topic": "Mobile",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 201,
+      "endPage": 201,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-008-p201",
+      "number": 8,
+      "title": "Rotacionar device para landscape e verificar layout",
+      "topic": "Mobile",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 201,
+      "endPage": 201,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-009-p201",
+      "number": 9,
+      "title": "Verificar comportamento ao pressionar botão Voltar",
+      "topic": "Mobile",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 201,
+      "endPage": 201,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-010-p202",
+      "number": 10,
+      "title": "Verificar que campo de senha oculta os caracteres",
+      "topic": "Mobile",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 202,
+      "endPage": 202,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-011-p202",
+      "number": 11,
+      "title": "Verificar deep link abre tela correta",
+      "topic": "Mobile",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 202,
+      "endPage": 202,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-012-p202",
+      "number": 12,
+      "title": "Tirar screenshot e salvar como evidência",
+      "topic": "Mobile",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 202,
+      "endPage": 202,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-013-p203",
+      "number": 13,
+      "title": "Verificar que teclado aparece ao focar em campo de texto",
+      "topic": "Mobile",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 203,
+      "endPage": 203,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-014-p203",
+      "number": 14,
+      "title": "Verificar mensagem de erro ao submeter formulário vazio",
+      "topic": "Mobile",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 203,
+      "endPage": 203,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-015-p204",
+      "number": 15,
+      "title": "Verificar que app persiste dados após fechar e reabrir",
+      "topic": "Mobile",
+      "level": "Básico",
+      "originalLevel": "Júnior",
+      "kind": "exercise",
+      "page": 204,
+      "endPage": 204,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-016-p205",
+      "number": 16,
+      "title": "Simular localização GPS e verificar funcionalidade",
+      "topic": "Mobile",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 205,
+      "endPage": 205,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-017-p205",
+      "number": 17,
+      "title": "Simular biometria (fingerprint) bem-sucedida",
+      "topic": "Mobile",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 205,
+      "endPage": 205,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-018-p206",
+      "number": 18,
+      "title": "Testar swipe em carrossel de imagens",
+      "topic": "Mobile",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 206,
+      "endPage": 206,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-019-p206",
+      "number": 19,
+      "title": "Verificar comportamento em modo avião",
+      "topic": "Mobile",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 206,
+      "endPage": 206,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-020-p207",
+      "number": 20,
+      "title": "Testar recebimento de push notification",
+      "topic": "Mobile",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 207,
+      "endPage": 207,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-025-p208",
+      "number": 25,
+      "title": "Testar performance de scroll em lista longa",
+      "topic": "Mobile",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 208,
+      "endPage": 208,
+      "duplicate": true
+    },
+    {
+      "id": "book-mobile-035-p209",
+      "number": 35,
+      "title": "Testar permissão de câmera e captura de foto mock",
+      "topic": "Mobile",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 209,
+      "endPage": 209,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-050-p210",
+      "number": 50,
+      "title": "Criar suite completa de smoke test mobile em < 5 minutos",
+      "topic": "Mobile",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 210,
+      "endPage": 210,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-021-p211",
+      "number": 21,
+      "title": "Testar login com autenticação biométrica falha",
+      "topic": "Mobile",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 211,
+      "endPage": 211,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-022-p211",
+      "number": 22,
+      "title": "Verificar que app atualiza badge de notificação",
+      "topic": "Mobile",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 211,
+      "endPage": 211,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-023-p212",
+      "number": 23,
+      "title": "Testar gestos de pinch e zoom em mapa",
+      "topic": "Mobile",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 212,
+      "endPage": 212,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-024-p213",
+      "number": 24,
+      "title": "Testar que app abre URL externa no browser padrão",
+      "topic": "Mobile",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 213,
+      "endPage": 213,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-025-p214",
+      "number": 25,
+      "title": "Verificar consumo de bateria durante operações intensas",
+      "topic": "Mobile",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 214,
+      "endPage": 214,
+      "duplicate": true
+    },
+    {
+      "id": "book-mobile-026-p215",
+      "number": 26,
+      "title": "Testar que app não crasha ao receber ligação durante uso",
+      "topic": "Mobile",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 215,
+      "endPage": 215,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-027-p216",
+      "number": 27,
+      "title": "Verificar que dados sensíveis não aparecem no recent apps",
+      "topic": "Mobile",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 216,
+      "endPage": 216,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-028-p217",
+      "number": 28,
+      "title": "Testar comportamento ao trocar de SIM card / eSIM",
+      "topic": "Mobile",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 217,
+      "endPage": 217,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-029-p218",
+      "number": 29,
+      "title": "Testar acessibilidade com TalkBack ativo",
+      "topic": "Mobile",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 218,
+      "endPage": 218,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-030-p219",
+      "number": 30,
+      "title": "Testar que app funciona com tamanho de fonte acessível",
+      "topic": "Mobile",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 219,
+      "endPage": 219,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-031-p220",
+      "number": 31,
+      "title": "Verificar que app limpa dados sensíveis da memória após logout",
+      "topic": "Mobile",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 220,
+      "endPage": 220,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-032-p221",
+      "number": 32,
+      "title": "Testar sincronização após reconectar à internet",
+      "topic": "Mobile",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 221,
+      "endPage": 221,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-033-p222",
+      "number": 33,
+      "title": "Testar que app usa SSL pinning e rejeita certificado inválido",
+      "topic": "Mobile",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 222,
+      "endPage": 222,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-034-p223",
+      "number": 34,
+      "title": "Testar que splash screen não bloqueia após cold start",
+      "topic": "Mobile",
+      "level": "Intermediário",
+      "originalLevel": "Pleno",
+      "kind": "exercise",
+      "page": 223,
+      "endPage": 223,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-036-p224",
+      "number": 36,
+      "title": "Implementar fixture de sessão compartilhada entre testes mobile",
+      "topic": "Mobile",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 224,
+      "endPage": 224,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-037-p225",
+      "number": 37,
+      "title": "Testar deep link com parâmetros de query string",
+      "topic": "Mobile",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 225,
+      "endPage": 225,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-038-p226",
+      "number": 38,
+      "title": "Testar App Links (verificação de domínio Android)",
+      "topic": "Mobile",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 226,
+      "endPage": 226,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-039-p227",
+      "number": 39,
+      "title": "Implementar Page Object para telas mobile",
+      "topic": "Mobile",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 227,
+      "endPage": 227,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-040-p228",
+      "number": 40,
+      "title": "Testar performance de startup com Perfetto/Systrace",
+      "topic": "Mobile",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 228,
+      "endPage": 228,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-041-p229",
+      "number": 41,
+      "title": "Testar comportamento do app com memória baixa",
+      "topic": "Mobile",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 229,
+      "endPage": 229,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-042-p230",
+      "number": 42,
+      "title": "Testar atualização OTA — fluxo de update do app",
+      "topic": "Mobile",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 230,
+      "endPage": 230,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-043-p231",
+      "number": 43,
+      "title": "Testar comportamento em modo escuro (Dark Mode)",
+      "topic": "Mobile",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 231,
+      "endPage": 231,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-044-p232",
+      "number": 44,
+      "title": "Testar que app não vaza dados via clipboard",
+      "topic": "Mobile",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 232,
+      "endPage": 232,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-045-p233",
+      "number": 45,
+      "title": "Testar internacionalização — app em inglês e português",
+      "topic": "Mobile",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 233,
+      "endPage": 234,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-046-p235",
+      "number": 46,
+      "title": "Testar que app funciona corretamente em tablet (large screen)",
+      "topic": "Mobile",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 235,
+      "endPage": 235,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-047-p236",
+      "number": 47,
+      "title": "Criar relatório HTML de execução mobile com screenshots",
+      "topic": "Mobile",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 236,
+      "endPage": 236,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-048-p237",
+      "number": 48,
+      "title": "Testar compatibilidade com Android 12+ (granular media permissions)",
+      "topic": "Mobile",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 237,
+      "endPage": 237,
+      "duplicate": false
+    },
+    {
+      "id": "book-mobile-049-p238",
+      "number": 49,
+      "title": "Testar analytics — eventos rastreados corretamente",
+      "topic": "Mobile",
+      "level": "Avançado",
+      "originalLevel": "Sênior",
+      "kind": "exercise",
+      "page": 238,
+      "endPage": 238,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-001-p239",
+      "number": 1,
+      "title": "Cenários de teste para endpoint REST",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 239,
+      "endPage": 239,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-002-p239",
+      "number": 2,
+      "title": "Cenários BDD para funcionalidade",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 239,
+      "endPage": 239,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-003-p239",
+      "number": 3,
+      "title": "Matriz de teste para regra de negócio complexa",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 239,
+      "endPage": 240,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-004-p240",
+      "number": 4,
+      "title": "Cenários de teste de regressão após bug fix",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 240,
+      "endPage": 240,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-005-p240",
+      "number": 5,
+      "title": "Casos de teste de segurança OWASP",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 240,
+      "endPage": 240,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-006-p240",
+      "number": 6,
+      "title": "Converter roteiro manual em código Playwright",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 240,
+      "endPage": 240,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-007-p240",
+      "number": 7,
+      "title": "Criar Page Object Model para uma tela",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 240,
+      "endPage": 241,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-008-p241",
+      "number": 8,
+      "title": "Criar fixtures de dados de teste realistas",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 241,
+      "endPage": 241,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-009-p241",
+      "number": 9,
+      "title": "Implementar helpers de espera customizados",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 241,
+      "endPage": 241,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-010-p241",
+      "number": 10,
+      "title": "Criar script de setup e teardown de dados via API",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 241,
+      "endPage": 241,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-011-p241",
+      "number": 11,
+      "title": "Analisar erro de teste e propor solução",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 241,
+      "endPage": 242,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-012-p242",
+      "number": 12,
+      "title": "Revisar código de automação como QA Architect",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 242,
+      "endPage": 242,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-013-p242",
+      "number": 13,
+      "title": "Analisar suite de testes e identificar gaps de cobertura",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 242,
+      "endPage": 242,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-014-p242",
+      "number": 14,
+      "title": "Investigar flaky test recorrente",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 242,
+      "endPage": 242,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-015-p242",
+      "number": 15,
+      "title": "Calcular ROI de automação para apresentar ao time",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 242,
+      "endPage": 243,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-016-p243",
+      "number": 16,
+      "title": "Criar estratégia de testes para nova feature",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 243,
+      "endPage": 243,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-017-p243",
+      "number": 17,
+      "title": "Criar plano de automação para time sem automação",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 243,
+      "endPage": 243,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-018-p243",
+      "number": 18,
+      "title": "Definir métricas de qualidade para o time",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 243,
+      "endPage": 243,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-019-p243",
+      "number": 19,
+      "title": "Criar onboarding de QA júnior em automação",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 243,
+      "endPage": 244,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-020-p244",
+      "number": 20,
+      "title": "Preparar pergunta técnica para entrevista de QA Sênior",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 244,
+      "endPage": 244,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-021-p244",
+      "number": 21,
+      "title": "Criar estratégia de testes mobile para lançamento",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 244,
+      "endPage": 244,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-022-p244",
+      "number": 22,
+      "title": "Criar cenários de carga para API crítica",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 244,
+      "endPage": 244,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-023-p244",
+      "number": 23,
+      "title": "Revisar aplicação para vulnerabilidades OWASP",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 244,
+      "endPage": 245,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-024-p245",
+      "number": 24,
+      "title": "Criar testes de acessibilidade WCAG",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 245,
+      "endPage": 245,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-025-p245",
+      "number": 25,
+      "title": "Criar estratégia de observabilidade para QA",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 245,
+      "endPage": 245,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-026-p245",
+      "number": 26,
+      "title": "Preparar para entrevista técnica de QA Lead",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 245,
+      "endPage": 245,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-027-p245",
+      "number": 27,
+      "title": "Escrever proposta de melhoria de processo para gestão",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 245,
+      "endPage": 246,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-028-p246",
+      "number": 28,
+      "title": "Criar descrição de vagas para QA Sênior/Lead",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 246,
+      "endPage": 246,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-029-p246",
+      "number": 29,
+      "title": "Criar blog post técnico sobre tema de QA",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 246,
+      "endPage": 246,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-030-p246",
+      "number": 30,
+      "title": "Criar curriculum técnico para vaga de QA Sênior",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 246,
+      "endPage": 246,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-031-p246",
+      "number": 31,
+      "title": "Gerar dados LGPD-compliant para testes",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 246,
+      "endPage": 246,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-032-p246",
+      "number": 32,
+      "title": "Criar plano de testes de migração de banco de dados",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 246,
+      "endPage": 247,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-033-p247",
+      "number": 33,
+      "title": "Analisar relatório de cobertura de código e priorizar gaps",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 247,
+      "endPage": 247,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-034-p247",
+      "number": 34,
+      "title": "Criar checklist de release para mobile",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 247,
+      "endPage": 247,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-035-p247",
+      "number": 35,
+      "title": "Escrever RCA (Root Cause Analysis) de bug crítico",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 247,
+      "endPage": 247,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-036-p247",
+      "number": 36,
+      "title": "Criar suite de testes de contrato com Pact",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 247,
+      "endPage": 247,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-037-p247",
+      "number": 37,
+      "title": "Revisar pipeline CI/CD e identificar gaps de qualidade",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 247,
+      "endPage": 247,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-038-p247",
+      "number": 38,
+      "title": "Criar estratégia de testes para microsserviços",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 247,
+      "endPage": 247,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-039-p247",
+      "number": 39,
+      "title": "Analisar bugs recorrentes e propor prevenção",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 247,
+      "endPage": 247,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-040-p247",
+      "number": 40,
+      "title": "Criar treinamento de qualidade para desenvolvedores",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 247,
+      "endPage": 247,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-041-p247",
+      "number": 41,
+      "title": "Gerar mock de serviço externo para testes",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 247,
+      "endPage": 248,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-042-p248",
+      "number": 42,
+      "title": "Criar estratégia de testes para GraphQL",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 248,
+      "endPage": 248,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-043-p248",
+      "number": 43,
+      "title": "Implementar teste de chaos engineering básico",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 248,
+      "endPage": 248,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-044-p248",
+      "number": 44,
+      "title": "Criar KPIs de qualidade para OKR do time",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 248,
+      "endPage": 248,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-045-p248",
+      "number": 45,
+      "title": "Analisar user journey e criar mapa de riscos",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 248,
+      "endPage": 248,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-046-p248",
+      "number": 46,
+      "title": "Criar documentação técnica de framework de automação",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 248,
+      "endPage": 248,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-047-p248",
+      "number": 47,
+      "title": "Implementar notificação inteligente de falhas em CI",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 248,
+      "endPage": 248,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-048-p248",
+      "number": 48,
+      "title": "Criar estratégia de testes de internacionalização (i18n)",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 248,
+      "endPage": 248,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-049-p248",
+      "number": 49,
+      "title": "Analisar feature flag e criar matriz de testes",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 248,
+      "endPage": 249,
+      "duplicate": false
+    },
+    {
+      "id": "book-ia-050-p249",
+      "number": 50,
+      "title": "Criar plano de testes de disaster recovery",
+      "topic": "IA",
+      "level": "Todos os níveis",
+      "originalLevel": "Prompt",
+      "kind": "prompt",
+      "page": 249,
+      "endPage": 249,
+      "duplicate": false
+    }
+  ],
+  "audit": [
+    {
+      "topic": "Web",
+      "announced": 100,
+      "entries": 100,
+      "uniqueNumbers": 100,
+      "duplicates": {},
+      "missing": []
+    },
+    {
+      "topic": "API",
+      "announced": 100,
+      "entries": 83,
+      "uniqueNumbers": 62,
+      "duplicates": {
+        "31": 2,
+        "32": 2,
+        "33": 2,
+        "34": 2,
+        "35": 2,
+        "36": 2,
+        "37": 2,
+        "38": 2,
+        "39": 2,
+        "40": 2,
+        "41": 2,
+        "42": 2,
+        "43": 2,
+        "44": 2,
+        "45": 2,
+        "46": 2,
+        "47": 2,
+        "48": 2,
+        "49": 2,
+        "50": 3
+      },
+      "missing": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99
+      ]
+    },
+    {
+      "topic": "SQL",
+      "announced": 50,
+      "entries": 35,
+      "uniqueNumbers": 35,
+      "duplicates": {},
+      "missing": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "topic": "Mobile",
+      "announced": 50,
+      "entries": 51,
+      "uniqueNumbers": 50,
+      "duplicates": {
+        "25": 2
+      },
+      "missing": []
+    },
+    {
+      "topic": "IA",
+      "announced": 50,
+      "entries": 50,
+      "uniqueNumbers": 50,
+      "duplicates": {},
+      "missing": []
+    }
+  ],
+  "checklist": [
+    {
+      "id": "book-check-01",
+      "group": "Estrutura do Projeto",
+      "text": "Pastas organizadas: tests/, pages/, fixtures/, helpers/, utils/",
+      "page": 250
+    },
+    {
+      "id": "book-check-02",
+      "group": "Estrutura do Projeto",
+      "text": "playwright.config.js ou cypress.config.js na raiz",
+      "page": 250
+    },
+    {
+      "id": "book-check-03",
+      "group": "Estrutura do Projeto",
+      "text": ".env.example com todas as variáveis de ambiente documentadas",
+      "page": 250
+    },
+    {
+      "id": "book-check-04",
+      "group": "Estrutura do Projeto",
+      "text": ".gitignore configurado (node_modules, .auth, downloads, screenshots)",
+      "page": 250
+    },
+    {
+      "id": "book-check-05",
+      "group": "Estrutura do Projeto",
+      "text": "README.md com: como instalar, como rodar e como contribuir",
+      "page": 250
+    },
+    {
+      "id": "book-check-06",
+      "group": "Estrutura do Projeto",
+      "text": "package.json com scripts: test, test:headed, test:smoke, test:api",
+      "page": 250
+    },
+    {
+      "id": "book-check-07",
+      "group": "Estratégia de Testes",
+      "text": "Pirâmide de testes definida: % de unitários, integração e E2E",
+      "page": 250
+    },
+    {
+      "id": "book-check-08",
+      "group": "Estratégia de Testes",
+      "text": "Smoke suite separada com máximo 15 testes críticos",
+      "page": 250
+    },
+    {
+      "id": "book-check-09",
+      "group": "Estratégia de Testes",
+      "text": "Regressão completa separada da smoke",
+      "page": 250
+    },
+    {
+      "id": "book-check-10",
+      "group": "Estratégia de Testes",
+      "text": "Critérios de entrada/saída documentados",
+      "page": 250
+    },
+    {
+      "id": "book-check-11",
+      "group": "Estratégia de Testes",
+      "text": "Mapeamento de features críticas vs cobertura atual",
+      "page": 250
+    },
+    {
+      "id": "book-check-12",
+      "group": "Estratégia de Testes",
+      "text": "Plano de expansão da cobertura por sprint",
+      "page": 250
+    },
+    {
+      "id": "book-check-13",
+      "group": "Qualidade do Código de Teste",
+      "text": "Page Object Model implementado para todas as telas testadas",
+      "page": 250
+    },
+    {
+      "id": "book-check-14",
+      "group": "Qualidade do Código de Teste",
+      "text": "Localizadores: 90%+ usando data-testid ou accessibility id",
+      "page": 250
+    },
+    {
+      "id": "book-check-15",
+      "group": "Qualidade do Código de Teste",
+      "text": "Zero hard sleeps (time.sleep / waitForTimeout fixo) no código",
+      "page": 250
+    },
+    {
+      "id": "book-check-16",
+      "group": "Qualidade do Código de Teste",
+      "text": "Asserções explícitas em cada ação crítica do teste",
+      "page": 250
+    },
+    {
+      "id": "book-check-17",
+      "group": "Qualidade do Código de Teste",
+      "text": "Testes independentes: cada teste cria e limpa seus próprios dados",
+      "page": 251
+    },
+    {
+      "id": "book-check-18",
+      "group": "Qualidade do Código de Teste",
+      "text": "Nomes de teste descritivos: deve_FAZER_quando_CONDIÇÃO",
+      "page": 251
+    },
+    {
+      "id": "book-check-19",
+      "group": "Qualidade do Código de Teste",
+      "text": "Dados de teste externalizados em fixtures, não hardcoded",
+      "page": 251
+    },
+    {
+      "id": "book-check-20",
+      "group": "CI/CD",
+      "text": "Pipeline executando em cada Pull Request",
+      "page": 251
+    },
+    {
+      "id": "book-check-21",
+      "group": "CI/CD",
+      "text": "Pipeline bloqueando merge se testes falharem",
+      "page": 251
+    },
+    {
+      "id": "book-check-22",
+      "group": "CI/CD",
+      "text": "Variáveis sensíveis em secrets, nunca no código",
+      "page": 251
+    },
+    {
+      "id": "book-check-23",
+      "group": "CI/CD",
+      "text": "Relatório HTML publicado como artefato em cada run",
+      "page": 251
+    },
+    {
+      "id": "book-check-24",
+      "group": "CI/CD",
+      "text": "Notificação de falha no Slack/Teams com link para relatório",
+      "page": 251
+    },
+    {
+      "id": "book-check-25",
+      "group": "CI/CD",
+      "text": "Execução paralela configurada para reduzir tempo total",
+      "page": 251
+    },
+    {
+      "id": "book-check-26",
+      "group": "CI/CD",
+      "text": "Retry configurado: máximo 2 tentativas apenas em CI",
+      "page": 251
+    },
+    {
+      "id": "book-check-27",
+      "group": "Métricas e Monitoramento",
+      "text": "Taxa de flakiness monitorada (alerta se > 5%)",
+      "page": 251
+    },
+    {
+      "id": "book-check-28",
+      "group": "Métricas e Monitoramento",
+      "text": "Tempo de execução da suite monitorado por semana",
+      "page": 251
+    },
+    {
+      "id": "book-check-29",
+      "group": "Métricas e Monitoramento",
+      "text": "Cobertura de casos críticos acompanhada (alvo: 80%+)",
+      "page": 251
+    },
+    {
+      "id": "book-check-30",
+      "group": "Métricas e Monitoramento",
+      "text": "Defect escape rate (bugs encontrados em prod vs QA) registrado",
+      "page": 251
+    },
+    {
+      "id": "book-check-31",
+      "group": "Métricas e Monitoramento",
+      "text": "Dashboard de qualidade atualizado semanalmente",
+      "page": 251
+    },
+    {
+      "id": "book-check-32",
+      "group": "Segurança e Compliance",
+      "text": "Nenhuma credencial real no código ou no repositório",
+      "page": 251
+    },
+    {
+      "id": "book-check-33",
+      "group": "Segurança e Compliance",
+      "text": "Dados de usuários reais nunca usados em testes",
+      "page": 251
+    },
+    {
+      "id": "book-check-34",
+      "group": "Segurança e Compliance",
+      "text": "Testes de segurança básicos (auth, IDOR) incluídos na suite",
+      "page": 251
+    },
+    {
+      "id": "book-check-35",
+      "group": "Segurança e Compliance",
+      "text": "Ambientes de teste isolados de produção",
+      "page": 251
+    },
+    {
+      "id": "book-check-36",
+      "group": "Segurança e Compliance",
+      "text": "Logs de teste não expõem PII",
+      "page": 251
+    }
+  ],
+  "glossary": [
+    {
+      "term": "A/B Testing",
+      "definition": "Técnica de comparação onde dois grupos de usuários recebem versões diferentes da aplicação para medir qual performa melhor. QA valida que os grupos são corretamente separados e que os dados são coletados sem interferência.",
+      "page": 252
+    },
+    {
+      "term": "Accessibility ID",
+      "definition": "Localizador mobile no Appium que usa o atributo contentDescription (Android) ou accessibilityLabel (iOS) do elemento. É o localizador mais estável para automação mobile — deve ser o primeiro a usar.",
+      "page": 252
+    },
+    {
+      "term": "Allure",
+      "definition": "Framework de relatório de testes com visualização rica: histórico, tendências, suítes, screenshots e steps. Integra com Playwright, JUnit, pytest e outros.",
+      "page": 252
+    },
+    {
+      "term": "API Contract",
+      "definition": "Acordo formal entre produtor e consumidor de API sobre: endpoints disponíveis, formatos de request/response, status codes esperados e comportamento em falhas. Testes de contrato validam esse acordo automaticamente.",
+      "page": 252
+    },
+    {
+      "term": "Appium",
+      "definition": "Framework open source para automação de apps mobile (iOS e Android). Usa o protocolo WebDriver, permitindo escrever testes com múltiplas linguagens (Python, Java, JS).",
+      "page": 252
+    },
+    {
+      "term": "Assertion",
+      "definition": "Verificação explícita no código de teste. Ex: expect(status).toBe(200). Uma boa asserção tem mensagem descritiva de falha. Nunca escreva teste sem asserção.",
+      "page": 252
+    },
+    {
+      "term": "BDD",
+      "definition": "Behavior-Driven Development — metodologia onde testes são escritos como comportamentos esperados em linguagem próxima ao negócio (Gherkin). Facilita comunicação entre QA, Dev e PO.",
+      "page": 252
+    },
+    {
+      "term": "Black Box Testing",
+      "definition": "Teste sem conhecimento do código interno. O QA só conhece entradas e saídas esperadas. Diferente de White Box (acesso ao código) e Gray Box (acesso parcial).",
+      "page": 252
+    },
+    {
+      "term": "Boundary Value Analysis",
+      "definition": "Técnica de design de teste que foca nos valores nos limites de partições (mínimo, máximo, mínimo-1, máximo+1). Ex: campo aceita 1-100 testar 0, 1, 100, 101.",
+      "page": 252
+    },
+    {
+      "term": "CI/CD",
+      "definition": "Continuous Integration/Continuous Delivery. CI = integração automática com testes a cada commit. CD = entrega automatizada para produção. Testes são o gate principal do pipeline.",
+      "page": 252
+    },
+    {
+      "term": "Clean Code",
+      "definition": "Conjunto de práticas para código legível e manutenível: nomes descritivos, funções pequenas, sem duplicação. Aplica-se ao código de teste tanto quanto ao código de produção.",
+      "page": 252
+    },
+    {
+      "term": "Code Coverage",
+      "definition": "Porcentagem do código de produção exercitada pelos testes. Alta cobertura não garante qualidade — um teste pode cobrir uma linha sem verificar nada. Métrica útil como indicador, não como objetivo absoluto.",
+      "page": 253
+    },
+    {
+      "term": "Consumer-Driven Contract",
+      "definition": "Tipo de teste de contrato onde o consumidor da API define as expectativas. Ferramentas: Pact, Spring Cloud Contract. Evita breaking changes em microsserviços.",
+      "page": 253
+    },
+    {
+      "term": "Cypress",
+      "definition": "Framework de automação web moderno, focado em testes E2E de aplicações JavaScript. Executa dentro do browser, tem Time Travel debugging e reload automático. Limitado a browsers baseados em Chromium + Firefox.",
+      "page": 253
+    },
+    {
+      "term": "Data-Driven Testing",
+      "definition": "Abordagem onde o mesmo teste é executado com múltiplos conjuntos de dados. Reduz duplicação de código e aumenta cobertura com menos esforço.",
+      "page": 253
+    },
+    {
+      "term": "Defect Density",
+      "definition": "Número de bugs por unidade de código (ex: bugs por 1000 linhas de código ou por story point). Métrica de qualidade de produto ao longo do tempo.",
+      "page": 253
+    },
+    {
+      "term": "Defect Escape Rate",
+      "definition": "Porcentagem de bugs que chegaram a produção sem serem detectados pelo QA. Indica efetividade do processo de testes. Alvo ideal: < 5%.",
+      "page": 253
+    },
+    {
+      "term": "E2E Test",
+      "definition": "End-to-End Test — teste que simula o fluxo completo do usuário, do front ao banco de dados. Mais lento e frágil que testes unitários, mas valida integrações reais.",
+      "page": 253
+    },
+    {
+      "term": "Equivalence Partitioning",
+      "definition": "Técnica de design de teste que divide inputs em classes equivalentes. Apenas um representante de cada classe precisa ser testado. Ex: campo aceita A-Z e a-z testar 'A' representa toda a classe maiúscula.",
+      "page": 253
+    },
+    {
+      "term": "Exploratory Testing",
+      "definition": "Teste sem roteiro fixo, onde QA usa conhecimento do sistema para descobrir bugs não previstos. Complementar à automação — a IA nunca substitui a criatividade humana no exploratório.",
+      "page": 253
+    },
+    {
+      "term": "Fixture",
+      "definition": "Dados ou estado necessário para executar um teste. Pode ser: arquivo JSON com dados, objeto criado via API antes do teste, ou estado do browser (login já realizado).",
+      "page": 253
+    },
+    {
+      "term": "Flaky Test",
+      "definition": "Teste que passa e falha intermitentemente sem mudança no código. Causa: timing, dados compartilhados, dependência de ordem, ambiente instável. É pior que teste que sempre falha — destrói confiança na suite.",
+      "page": 253
+    },
+    {
+      "term": "Gherkin",
+      "definition": "Linguagem de especificação do BDD. Palavras-chave: Given (pré-condição), When (ação), Then (resultado esperado), And, But. Executada por frameworks como Cucumber.",
+      "page": 253
+    },
+    {
+      "term": "GitHub Actions",
+      "definition": "Plataforma de CI/CD integrada ao GitHub. Permite criar workflows YAML que executam testes a cada push/PR. Gratuito para repositórios públicos.",
+      "page": 253
+    },
+    {
+      "term": "Hard Assert",
+      "definition": "Asserção que interrompe o teste imediatamente ao falhar. Comportamento padrão. Oposto de Soft Assert.",
+      "page": 253
+    },
+    {
+      "term": "Headless Browser",
+      "definition": "Browser sem interface gráfica. Mais rápido para testes automatizados em CI. Playwright e Cypress suportam modo headless nativamente.",
+      "page": 254
+    },
+    {
+      "term": "IDOR",
+      "definition": "Insecure Direct Object Reference — vulnerabilidade onde usuário acessa recurso de outro usuário manipulando IDs. Ex: GET /usuarios/123 retorna dados do usuário 123 para qualquer usuário autenticado.",
+      "page": 254
+    },
+    {
+      "term": "Integration Test",
+      "definition": "Teste que verifica a integração entre dois ou mais componentes. Ex: frontend + API, API + banco de dados, dois microsserviços. Mais lento que unitário, mais rápido que E2E.",
+      "page": 254
+    },
+    {
+      "term": "JMeter",
+      "definition": "Ferramenta Apache de testes de carga e performance. Suporta HTTP, JDBC, FTP, SOAP. Mais pesado que k6 mas mais completo para protocolos legados.",
+      "page": 254
+    },
+    {
+      "term": "JSON Schema",
+      "definition": "Especificação formal da estrutura de um objeto JSON. Usado em testes de contrato de API para validar que responses seguem o formato esperado.",
+      "page": 254
+    },
+    {
+      "term": "k6",
+      "definition": "Ferramenta moderna de teste de performance. Scripts em JavaScript, relatórios em tempo real, integração nativa com CI/CD. Mais leve e desenvolvedor-friendly que JMeter.",
+      "page": 254
+    },
+    {
+      "term": "Locator",
+      "definition": "Referência a um elemento na página/tela. Playwright: page.locator('#id'). Appium: driver.find_element('accessibility id', 'nome'). Bons localizadores são estáveis e semânticos.",
+      "page": 254
+    },
+    {
+      "term": "Mock",
+      "definition": "Objeto/serviço falso que simula comportamento de uma dependência real em testes. Diferente de stub (simples) e spy (registra chamadas). Usado para isolar o código sendo testado.",
+      "page": 254
+    },
+    {
+      "term": "Mutation Testing",
+      "definition": "Técnica que introduz bugs artificiais (mutações) no código de produção para verificar se os testes detectam. Se os testes não capturam a mutação, são considerados fracos.",
+      "page": 254
+    },
+    {
+      "term": "OWASP",
+      "definition": "Open Web Application Security Project. Mantém o Top 10 de vulnerabilidades mais críticas em aplicações web. QA deve conhecer e testar para todos os itens relevantes.",
+      "page": 254
+    },
+    {
+      "term": "Page Object Model",
+      "definition": "Padrão de design onde cada página da aplicação é uma classe com seus elementos e ações encapsulados. Reduz duplicação, melhora manutenibilidade e torna testes legíveis.",
+      "page": 254
+    },
+    {
+      "term": "Playwright",
+      "definition": "Framework de automação web moderno da Microsoft. Suporta Chromium, Firefox e WebKit. Multi-linguagem (JS/TS, Python, Java, C#). Tem API nativa para testes de browser e API HTTP.",
+      "page": 254
+    },
+    {
+      "term": "QAOps",
+      "definition": "Integração de práticas de QA no pipeline DevOps. QA não é fase final, mas processo contínuo: qualidade em cada etapa do desenvolvimento, do refinamento ao deploy.",
+      "page": 254
+    },
+    {
+      "term": "Regression Test",
+      "definition": "Teste que garante que funcionalidades existentes não foram quebradas por mudanças recentes. É o principal candidato à automação — executa repetidamente a cada ciclo.",
+      "page": 254
+    },
+    {
+      "term": "REST",
+      "definition": "Representational State Transfer — estilo arquitetural para APIs. Usa HTTP (GET, POST, PUT, PATCH, DELETE), JSON como formato padrão e status codes para indicar resultado.",
+      "page": 255
+    },
+    {
+      "term": "Robot Framework",
+      "definition": "Framework de automação open source baseado em Python com sintaxe de palavras-chave. Usado para web (SeleniumLibrary), API, banco de dados e mobile.",
+      "page": 255
+    },
+    {
+      "term": "Sanity Test",
+      "definition": "Subset focado da regressão, executado após uma correção específica para verificar que o fix funcionou sem introduzir regressão imediata.",
+      "page": 255
+    },
+    {
+      "term": "Selenium",
+      "definition": "Framework de automação web mais antigo e mais usado no mercado. Suporta múltiplas linguagens e browsers. Grid permite execução distribuída. Base de muitos frameworks corporativos.",
+      "page": 255
+    },
+    {
+      "term": "Selenium Grid",
+      "definition": "Componente do Selenium que permite executar testes em múltiplas máquinas/browsers simultaneamente. Usado em pipelines de CI para paralelismo.",
+      "page": 255
+    },
+    {
+      "term": "Shift-Left",
+      "definition": "Prática de mover atividades de qualidade para mais cedo no ciclo de desenvolvimento. QA envolvido desde o refinamento, não apenas no final do sprint.",
+      "page": 255
+    },
+    {
+      "term": "Smoke Test",
+      "definition": "Suite de testes mínima que verifica se as funcionalidades mais críticas do sistema estão funcionando. Se smoke falhar, mais nenhum teste precisa rodar.",
+      "page": 255
+    },
+    {
+      "term": "Soft Assert",
+      "definition": "Asserção que não interrompe o teste ao falhar — acumula todos os erros e reporta ao final. Útil quando você quer ver múltiplos problemas de uma vez.",
+      "page": 255
+    },
+    {
+      "term": "SQL Injection",
+      "definition": "Ataque onde código SQL malicioso é inserido em campos de input. Testes de segurança devem verificar que a aplicação sanitiza inputs e usa queries parametrizadas.",
+      "page": 255
+    },
+    {
+      "term": "Stub",
+      "definition": "Implementação simplificada de uma dependência que retorna respostas fixas. Mais simples que mock — não registra chamadas, só simula comportamento.",
+      "page": 255
+    },
+    {
+      "term": "Test Double",
+      "definition": "Termo genérico para qualquer substituição de componente real em testes: mock, stub, fake, spy, dummy.",
+      "page": 255
+    },
+    {
+      "term": "TestOps",
+      "definition": "Prática de aplicar princípios de DevOps à gestão de testes: automação de testes como código, métricas contínuas, colaboração entre QA, Dev e Ops.",
+      "page": 255
+    },
+    {
+      "term": "TDD",
+      "definition": "Test-Driven Development — escrever o teste antes do código de produção. Ciclo: Red (teste falha) Green (código passa) Refactor (melhora código mantendo testes verdes).",
+      "page": 255
+    },
+    {
+      "term": "Trace (Playwright)",
+      "definition": "Artefato de debug do Playwright que grava screenshots, network, DOM e ações em cada passo do teste. Visualizado com 'npx playwright show-trace'. Essencial para debug em CI.",
+      "page": 255
+    },
+    {
+      "term": "UAT",
+      "definition": "User Acceptance Testing — testes realizados pelos usuários finais ou stakeholders para validar que o sistema atende aos requisitos de negócio antes do go-live.",
+      "page": 255
+    },
+    {
+      "term": "UiAutomator2",
+      "definition": "Driver do Appium para automação Android. Usa a API UiAutomator do Android internamente. Mais estável que o driver legado UIAutomator.",
+      "page": 256
+    },
+    {
+      "term": "Unit Test",
+      "definition": "Teste que verifica uma unidade isolada de código (função, método, classe). Rápido, barato, deve ser a base da pirâmide de testes. Responsabilidade primária do desenvolvedor.",
+      "page": 256
+    },
+    {
+      "term": "Viewport",
+      "definition": "Área visível da janela do browser. Usado em testes de responsividade para simular diferentes tamanhos de tela (mobile, tablet, desktop).",
+      "page": 256
+    },
+    {
+      "term": "WCAG",
+      "definition": "Web Content Accessibility Guidelines — diretrizes de acessibilidade para conteúdo web. Nível AA é o mais exigido em sistemas públicos e financeiros.",
+      "page": 256
+    },
+    {
+      "term": "WebDriver",
+      "definition": "Protocolo padrão W3C para automação de browsers. Selenium, Playwright e Appium usam WebDriver internamente para se comunicar com browsers e apps.",
+      "page": 256
+    },
+    {
+      "term": "XCUITest",
+      "definition": "Driver do Appium para automação iOS. Usa o framework XCTest da Apple. Necessário para automatizar apps nativos e híbridos em iOS.",
+      "page": 256
+    },
+    {
+      "term": "XPath",
+      "definition": "Linguagem de consulta para navegação em XML/HTML. Usado como localizador quando id/css não está disponível. Evite XPath absoluto (/html/body/div[2]/...) — prefira relativo e semântico.",
+      "page": 256
+    },
+    {
+      "term": "Zero-defect Policy",
+      "definition": "Meta de qualidade onde nenhum bug conhecido deve ir para produção. Requer processo de qualidade maduro, cobertura de testes alta e cultura de qualidade no time.",
+      "page": 256
+    }
+  ]
+}
